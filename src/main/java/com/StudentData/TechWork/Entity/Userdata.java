@@ -8,8 +8,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-// import jakarta.validation.constraints.Email;
-// import jakarta.validation.constraints.NotEmpty;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
@@ -36,7 +34,6 @@ public class Userdata {
         this.id = id;
     }
 
-    // Getter and Setter for name
     public String getName() {
         return name;
     }
@@ -45,7 +42,6 @@ public class Userdata {
         this.name = name;
     }
 
-    // Getter and Setter for email
     public String getEmail() {
         return email;
     }
@@ -54,7 +50,6 @@ public class Userdata {
         this.email = email;
     }
 
-    // Getter and Setter for number
     public String getNumber() {
         return number;
     }
@@ -63,7 +58,6 @@ public class Userdata {
         this.number = number;
     }
 
-    // Getter and Setter for gender
     public String getGender() {
         return gender;
     }
