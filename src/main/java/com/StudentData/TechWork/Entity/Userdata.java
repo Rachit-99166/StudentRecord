@@ -66,7 +66,6 @@ public class Userdata {
         this.gender = gender;
     }
 
-    // Getter and Setter for date
     public String getDate() {
         return date;
     }
@@ -75,7 +74,6 @@ public class Userdata {
         this.date = date;
     }
 
-    // Getter and Setter for time
     public String getTime() {
         return time;
     }
