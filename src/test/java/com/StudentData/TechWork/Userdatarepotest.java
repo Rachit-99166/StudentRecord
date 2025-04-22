@@ -27,11 +27,9 @@ public class Userdatarepotest {
         // user.setTime("12:00");
 
         Userdata saved = repository.save(user);
-        // Assert that the saved entity is not null and the ID is assigned
         // assertNotNull(saved);
         // assertNotNull(saved.getId());
 
-        // Optional: check fields are saved correctly
         assertEquals("John Doe", saved.getName());
         assertEquals("john@example.com", saved.getEmail());
         assertEquals("1234567890", saved.getNumber());
