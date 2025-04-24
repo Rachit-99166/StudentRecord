@@ -9,3 +9,4 @@ import com.StudentData.TechWork.Entity.Userdata;
 public interface Userdatarepo extends JpaRepository<Userdata, Long> {
 
 } 
+ 
