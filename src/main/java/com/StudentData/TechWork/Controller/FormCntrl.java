@@ -12,7 +12,7 @@ import org.springframework.ui.Model;
 import com.StudentData.TechWork.Service.Userdataservice;
 
 @Controller
-public class FormCntrl {
+public class FormCntrl { 
 
     @Autowired
     private Userdataservice uds;
