@@ -17,7 +17,7 @@ public class FormCntrl {
     @Autowired 
     private Userdataservice uds;
 
-    @GetMapping("/")
+    @GetMapping("/") 
     public String showform(Model model) {
         model.addAttribute("userData", new Userdata());
         return "form";
