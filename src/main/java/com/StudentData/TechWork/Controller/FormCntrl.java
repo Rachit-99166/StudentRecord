@@ -18,7 +18,7 @@ public class FormCntrl {
     private Userdataservice uds;
 
     @GetMapping("/") 
-    public String showform(Model model) {
+    public String showform(Model model) { 
         model.addAttribute("userData", new Userdata());
         return "form";
     }
