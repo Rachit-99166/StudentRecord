@@ -14,7 +14,7 @@ import com.StudentData.TechWork.Service.Userdataservice;
 @Controller
 public class FormCntrl { 
  
-    @Autowired
+    @Autowired 
     private Userdataservice uds;
 
     @GetMapping("/")
