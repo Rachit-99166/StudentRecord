@@ -61,7 +61,7 @@ public class Userdata {
     public String getGender() {
         return gender;
     }
-
+ 
     public void setGender(String gender) {
         this.gender = gender;
     }
