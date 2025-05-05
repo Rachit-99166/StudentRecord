@@ -67,7 +67,7 @@ public class Userdata {
     }
 
     public String getDate() {
-        return date;
+        return date; 
     }
 
     public void setDate(String date) {
