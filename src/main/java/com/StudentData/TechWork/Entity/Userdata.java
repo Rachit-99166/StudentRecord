@@ -19,7 +19,7 @@ public class Userdata {
     private Long id;
     private String name;
     // @Email
-    // @NotEmpty
+    // @NotEmpty 
     private String email;
     private String number;
     private String gender;
