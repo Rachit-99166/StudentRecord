@@ -23,7 +23,7 @@ public class FormCntrl {
     } 
 
     @PostMapping("/submit")
-    public String submit(Userdata usd) {
+    public String submit(Userdata usd) { 
         uds.saveUserData(usd);
         return "redirect:/";
     }
