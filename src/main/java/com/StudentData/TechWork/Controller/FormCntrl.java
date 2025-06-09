@@ -8,7 +8,7 @@ import com.StudentData.TechWork.Entity.Userdata;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.ui.Model;
-import com.StudentData.TechWork.Service.Userdataservice;
+import com.StudentData.TechWork.Service.Userdataservice; 
 
 @Controller
 public class FormCntrl { 
