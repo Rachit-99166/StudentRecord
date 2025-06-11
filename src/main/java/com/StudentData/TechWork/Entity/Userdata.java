@@ -16,7 +16,7 @@ public class Userdata {
 
     @Id  
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Long id; 
     private String name;
     // @Email
     // @NotEmpty 
