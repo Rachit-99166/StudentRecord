@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Userdata {
+public class Userdata { 
 
     @Id 
     @GeneratedValue(strategy = GenerationType.AUTO)
