@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.StudentData.TechWork.Entity.Userdata;
 
 @Repository
-public interface Userdatarepo extends JpaRepository<Userdata, Long> {
+public interface Userdatarepo extends JpaRepository<Userdata, Long> { 
 
 }  
   
