@@ -10,7 +10,7 @@ import com.StudentData.TechWork.Repo.Userdatarepo;
 public class Userdataservice {
 
     @Autowired
-    private Userdatarepo repository; 
+    private Userdatarepo repository;  
 
     public void saveUserData(Userdata userData) {
         repository.save(userData);
